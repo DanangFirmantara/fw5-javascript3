@@ -11,9 +11,14 @@ const getmonth = ((callback) =>{
 })
 
 function map(param1,param2){
-    param2.map((element) =>{
-        console.log(element)
-    })
+    if(param1){
+        console.log(param1)
+    } else if(param2){
+        param2.map((element) =>{
+            console.log(element)
+        })
+    }
+   
 }
 
 getmonth(map)
