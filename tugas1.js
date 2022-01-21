@@ -36,3 +36,5 @@ proces("minggu")
 
 //ketika menggunakan console.log terjadi pending terlebih dahulu untuk menandakan bahwa program sudah jalan akan tetapi belum mengeluarkan hasil karna program bersifat asynchronous
 console.log(proces("jumat"))
+
+//add commit
